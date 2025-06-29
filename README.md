@@ -32,5 +32,5 @@ Na camada de dados foi utilizada a ORM SQLAlchemy com Alembic para realização 
    DATABASE_URL="postgresql://postgres:admin@127.0.0.1:5432/to_do_list_evoluum"  
    STATIC_TOKEN="PD03JXKeO_XBNH_KJj4ZgqFII7UVSFNsuWd-piEkO1e6PrMMySQ_FlmUS8uonGkDB3j_VlA4AriDsBk40f5TEAQypDCJMmyufv3bWD1Q1EVzrjPuvpYnJt0m9HbnT02GLqf9lReBz7BFjoIAumo_n94BsGcGAvqaH3r-H592h7zaRKA5GuW6zPpdLNx6H4z5iAeiHFu6DkDsLh1QJjYOX7uRKsYF2I4Kv6O3-_VtC972FHio-EgNAZPNKNhn4wj3yoSvq_iahWJpA02rN8-KnMnIH63Z4OQtPgVSiM8ZnAVGEx3XgI8xR0GnRLM-pEUzJJ389iteK9jB-mNIGsF0LzyCPBQDV9"    
 
-5. Inicie o servidor de desenvolvimento:
+5. Inicie o servidor de desenvolvimento:  
    uvicorn src.main:app --reload
