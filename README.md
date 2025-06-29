@@ -4,11 +4,11 @@ Permite cadastro e login de usuários, e também cadastro, busca, edição e del
 
 ## Como foi feito
 Este projeto é uma API desenvolvida em Python com FastAPI, SQLAlchemy como ORM, e conta com duas tabelas em um banco de dados PostgreSQL, Todos e Users.
-Suas rotas são divididas em ToDos, auth e Users.
+Suas rotas são divididas em ToDos, auth e Users.    
 
-ToDos: Permite a busca de todos os ToDos do usuário, de apenas um específico, criação, edição, deleção e finalização de um ToDo.
-auth: Permite que o usuário se registre e que faça login para obtenção de um token (foi feito de forma estática como solicitado).
-Users: Permite que o usuário receba suas informações (uso em uma tela de perfil), e troque sua senha.
+ToDos: Permite a busca de todos os ToDos do usuário, de apenas um específico, criação, edição, deleção e finalização de um ToDo.  
+auth: Permite que o usuário se registre e que faça login para obtenção de um token (foi feito de forma estática como solicitado).  
+Users: Permite que o usuário receba suas informações (uso em uma tela de perfil), e troque sua senha.  
 
 ## Conhecimentos utilizados
 Foram utilizadas práticas de código limpo separando as camadas em Presentation, Domain e Data, e definindo o que deve ser mantido em cada uma.
